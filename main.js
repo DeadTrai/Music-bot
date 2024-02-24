@@ -22,4 +22,4 @@ player.extractors.loadDefault();
 
 require('./src/loader');
 
-client.login(client.config.app.token);
+client.login(process.env.token);
